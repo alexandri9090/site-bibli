@@ -8,6 +8,77 @@ body{
     height: 100%;
     background: #066b7c;
     overflow: hidden;
-    text-align: center;
-    padding: 25%;
+    margin-left: 36%;
+    margin-top: 15%;
+
+   }
+.container{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 170px auto;
+    
+}
+.wrapper{
+    width: 400px;
+    height: 340px;
+    background-color: whitesmoke;
+    border-radius:7px ;
+    box-shadow: 0 6px 4px -4px rgb(0, 0, 0, 0.25);
+}
+.wrapper .title{
+    line-height: 80px;
+    background: gray;
+    padding-left: 20px;
+    border-radius: 7px 7px 0 0;
+    font-size: 25px;
+    color: rgb(240, 243,247);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.wrapper form{
+    padding: 30px 20px 25px 20px;
+}
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    font-family: 'Courier New';
+    padding: 4%;
+}
+.wrapper form .row .i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    font-size: 20px;
+    background: gray;
+    box-shadow: rgb(0, 0, 0, 0.25) ;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.wrapper form .pass{
+    margin: -8px 0 20px 0 ;
+
+}
+.wrapper form .pass p{
+    color: gray ;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Courier New';
+}
+.wrapper form .pass p:hover{
+    text-decoration: underline;
 }
