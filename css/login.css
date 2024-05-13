@@ -1,3 +1,4 @@
+
 /*a regra afetara todos os elementos html da pagina*/
 *{
     margin: 0;
@@ -60,41 +61,15 @@ border: 1px solid lightgray;
 font-size: 16px;
 font-family: "montebello",time,serif;
     }
-
     .wrapper form .row .i{
         position: absolute;
         width: 47px;
         height: 100%;
-        font-size: 20px;
-        background: gray;
-        box-shadow: 0 4px 2px -2px rgba(0,0,0,0.25);
-        border-radius: 5px 0 0 5px;
-        display: flex ;
-        align-items: center;
-        justify-content: center;
-   }
-   .wrapper form .pass{
-    margin: -8px 0 20px 0;
-   }
-   .wrapper form .pass p{
-    color: gray;
-    font-size: 17px;
-    text-decoration: none;
-    font-family: 'Courier New';
-   }
-   .wrapper form .pass p:hover{
-    text-decoration: underline;
-    cursor: pointer;
-   }
-   .wrapper form .botton input{
-    color:white;
-    font-size: 18px;
-    font-weight: 500;
-    padding-left: 0;
-    background: gray;
-    border: 1px solid lightgrey;
-    cursor: pointer;
-    
-   }
-
-   
+     font-size: 20px;
+     background: gray;
+     box-shadow: 0 4px 2px -2px rgba(0,0,0,0.25);
+border-radius: 5px 0 0 5px;
+    display: flex ;
+align-items: center;
+justify-content: center;
+}
